@@ -36,6 +36,18 @@
       header {
         background-color: var(--c-background-highlights);
       }
+
+      .base {
+        color: var(--base-font-color);
+      }
+
+      article a {
+        color: var(--c-magenta);
+      }
+
+      a:hover {
+        color: var(--c-orange);
+      }
     </style>
 
   </head>
@@ -43,7 +55,7 @@
   <body>
     <!-- Here is our main header that is used across all the pages of our website -->
 
-    <header>
+    <header class="base">
       <h1>Header by Mike Hudson</h1>
     </header>
 
@@ -64,7 +76,7 @@
      </nav>
 
     <!-- Here is our page's main content -->
-    <main>
+    <main class="base">
 
       <!-- It contains an article -->
       <article>
@@ -102,7 +114,7 @@
 
     <!-- And here is our main footer that is used across all the pages of our website -->
 
-    <footer>
+    <footer class="base">
       <p>©Copyright 2050 by nobody. All rights reversed.</p>
     </footer>
 
