@@ -35,6 +35,8 @@
 
       header {
         background-color: var(--c-background-highlights);
+        font-size: 150%;
+        text-align:center;
       }
 
       .base {
@@ -48,6 +50,38 @@
       a:hover {
         color: var(--c-orange);
       }
+
+      .border {
+        border-style: solid;
+        border-width: 3px;
+        border-color: var(--c-cyan);
+      }
+
+      h1 {
+        color:var(--c-yellow);
+      }
+
+      nav ul{
+        list-style-type: none;
+      }
+
+      aside {
+        color: var(--c-green);
+      }
+      aside a {
+        color: var(--c-red);
+      }
+      aside a:hover {
+        color: var(--c-blue);
+      }
+
+      body {
+        max-width: 800px;
+      }
+
+      article h2,h3 {
+        padding-top: 50px;
+      }
     </style>
 
   </head>
@@ -56,7 +90,7 @@
     <!-- Here is our main header that is used across all the pages of our website -->
 
     <header class="base">
-      <h1>Header by Mike Hudson</h1>
+      <h1>Header</h1>
     </header>
 
     <nav>
@@ -84,17 +118,25 @@
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
 
-        <h3>Subsection</h3>
+        <div class="border">
 
-        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+          <h3>Subsection</h3>
 
-        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+          <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
 
-        <h3>Another subsection</h3>
+          <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
 
-        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+        </div>
 
-        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+        <div class="border">
+
+          <h3>Another subsection</h3>
+
+          <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+
+          <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+
+        </div>
       </article>
 
       <!-- the aside content can also be nested within the main content -->
