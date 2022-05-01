@@ -20,9 +20,9 @@ A hyperlink:
 [I am making my own blog website](https://mike-distill-blog.netlify.app/)
 
 Here is a photo from this morning (Sun, 1 May 2022):
-![Walking a dog](../Mike_Dog_Walking_2022-05-01_400x300.jpg)
+![Walking a dog](./Mike_Dog_Walking_2022-05-01_400x300.jpg)
 
-Here is a table:
+A table:
 | Colour | Place |
 | --- | --- |
 | Red | Charles Sturt University |
